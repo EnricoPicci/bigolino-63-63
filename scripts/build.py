@@ -67,7 +67,7 @@ def scan_gallery_images():
     for root, dirs, files in os.walk(PICTURES_DIR):
         # Skip the profiles and landscape subfolders for gallery
         rel_root = os.path.relpath(root, PROJECT_ROOT)
-        if 'profiles' in rel_root or 'landscape' in rel_root:
+        if 'profiles' in rel_root or 'landscape' in rel_root or 'tomba-brion' in rel_root:
             continue
         for filename in sorted(files):
             ext = os.path.splitext(filename)[1].lower()

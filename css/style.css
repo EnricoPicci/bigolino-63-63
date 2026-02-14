@@ -735,6 +735,30 @@ a:hover {
     color: var(--color-navy);
 }
 
+.section-tomba-brion .content-figure {
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    background: var(--color-white);
+}
+
+.section-tomba-brion .content-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-tomba-brion .content-figure figcaption {
+    padding: 0.8rem 1rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--color-text-light);
+    text-align: center;
+    line-height: 1.5;
+}
+
 .section-tomba-brion a {
     color: var(--color-navy);
     text-decoration: underline;
