@@ -582,6 +582,41 @@ a:hover {
 }
 
 /* ===================== */
+/* Landscape Dividers    */
+/* ===================== */
+.landscape-divider {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.landscape-divider::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(44, 62, 107, 0.45) 0%,
+        rgba(74, 124, 89, 0.40) 50%,
+        rgba(44, 62, 107, 0.45) 100%
+    );
+}
+
+.landscape-divider--prosecco-valley {
+    background-image: url('../pictures/landscape/prosecco-valley.jpg');
+}
+
+.landscape-divider--valdobbiadene-hillside {
+    background-image: url('../pictures/landscape/valdobbiadene-hillside.jpg');
+}
+
+.landscape-divider--cadei-zago {
+    background-image: url('../pictures/landscape/cadei-zago-panorama.jpg');
+}
+
+/* ===================== */
 /* Footer                */
 /* ===================== */
 .site-footer {
@@ -640,8 +675,13 @@ a:hover {
         height: 240px;
     }
 
-    .hero {
+    .hero,
+    .landscape-divider {
         background-attachment: fixed;
+    }
+
+    .landscape-divider {
+        height: 300px;
     }
 }
 
