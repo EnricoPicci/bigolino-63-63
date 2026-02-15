@@ -150,6 +150,15 @@
     var musicBtn = document.getElementById('music-btn');
     var musicPlayer = document.getElementById('music-player');
 
+    var musicLabel = document.getElementById('music-label');
+
+    if (musicLabel && musicBtn) {
+        musicLabel.style.cursor = 'pointer';
+        musicLabel.addEventListener('click', function () {
+            musicBtn.click();
+        });
+    }
+
     if (musicBtn && musicPlayer) {
         musicBtn.addEventListener('click', function () {
             if (musicPlayer.paused) {
