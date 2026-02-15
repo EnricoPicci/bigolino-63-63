@@ -886,6 +886,25 @@ a:hover {
     font-size: 0.75rem;
 }
 
+.footer-prompts {
+    margin-bottom: 0.5rem;
+    opacity: 0.4;
+}
+
+.footer-prompts small {
+    font-size: 0.7rem;
+}
+
+.footer-prompts a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-prompts a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
 .footer-copy {
     font-size: 0.8rem;
     opacity: 0.5;
