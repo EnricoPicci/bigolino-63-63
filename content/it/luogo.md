@@ -2,11 +2,11 @@
 
 ## Dove tutto ha inizio (e ricomincia)
 
-Nel cuore delle **Colline del Prosecco di Conegliano e Valdobbiadene**, patrimonio UNESCO dal 2019, c'e un posto dove il tempo si misura in vendemmie e le amicizie in brindisi.
+Nel cuore delle **Colline del Prosecco di Conegliano e Valdobbiadene**, patrimonio UNESCO dal 2019, c'è un posto dove il tempo si misura in vendemmie e le amicizie in brindisi.
 
-**Bigolino** e una frazione di Valdobbiadene adagiata tra le colline, dove i filari di vite disegnano geometrie perfette sui pendii e l'aria profuma di mosto in autunno e di fiori in primavera. Qui il paesaggio non e solo bello: e commovente.
+**Bigolino** è una frazione di Valdobbiadene adagiata tra le colline, dove i filari di vite disegnano geometrie perfette sui pendii e l'aria profuma di mosto in autunno e di fiori in primavera. Qui il paesaggio non è solo bello: è commovente.
 
-L'**Agriturismo da Ottavio** e il luogo dove, dal 2003, quattro amici si ritrovano per celebrare il passare degli anni con l'unico metro che conta: quanto si sta bene insieme.
+L'**Agriturismo da Ottavio** è il luogo dove, dal 2003, quattro amici si ritrovano per celebrare il passare degli anni con l'unico metro che conta: quanto si sta bene insieme.
 
 ## Come arrivare
 
@@ -21,4 +21,4 @@ Via Campion, 1
 
 ## Quando
 
-**Venerdi 27 Giugno 2026, dalle ore 19:00**
+**Venerdì 27 Giugno 2026, dalle ore 19:00**
