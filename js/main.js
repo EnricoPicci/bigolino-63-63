@@ -143,4 +143,24 @@
     if (window.location.hash === '#tomba-brion') {
         showPage('#tomba-brion');
     }
+
+    // =====================
+    // Music Player
+    // =====================
+    var musicBtn = document.getElementById('music-btn');
+    var musicPlayer = document.getElementById('music-player');
+
+    if (musicBtn && musicPlayer) {
+        musicBtn.addEventListener('click', function () {
+            if (musicPlayer.paused) {
+                musicPlayer.play();
+                musicBtn.classList.add('playing');
+                musicBtn.setAttribute('aria-label', 'Pause music');
+            } else {
+                musicPlayer.pause();
+                musicBtn.classList.remove('playing');
+                musicBtn.setAttribute('aria-label', 'Play music');
+            }
+        });
+    }
 })();

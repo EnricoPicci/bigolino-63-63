@@ -928,13 +928,56 @@ a:hover {
 }
 
 /* ===================== */
+/* Music Button          */
+/* ===================== */
+.music-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    z-index: 100;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: radial-gradient(circle at center, var(--color-gold-prosecco) 18%, var(--color-navy-dark) 20%, var(--color-navy-dark) 38%, var(--color-text-light) 40%, var(--color-navy-dark) 42%, var(--color-navy-dark) 58%, var(--color-text-light) 60%, var(--color-navy-dark) 62%, var(--color-navy-dark) 78%, var(--color-text-light) 80%, var(--color-navy-dark) 82%);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.music-btn.playing {
+    animation: spin-vinyl 2s linear infinite;
+}
+
+.music-btn-icon {
+    font-size: 1.4rem;
+    color: var(--color-gold-prosecco);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+@keyframes spin-vinyl {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ===================== */
 /* Print                 */
 /* ===================== */
 @media print {
     .lang-toggle,
     .spectrum-cursor,
     .lightbox,
-    .back-nav { display: none; }
+    .back-nav,
+    .music-btn { display: none; }
 
     .hero { min-height: auto; padding: 2rem; }
     .hero-overlay { background: rgba(0,0,0,0.3); }
