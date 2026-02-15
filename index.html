@@ -575,9 +575,15 @@ Via Campion, 1
 
 <!-- Music Player -->
 <audio id="music-player" src="music/i-wish.mp3" preload="none" loop></audio>
-<button id="music-btn" class="music-btn" aria-label="Play music" title="I Wish - Stevie Wonder">
-    <span class="music-btn-icon">&#9835;</span>
-</button>
+<div class="music-widget">
+    <button id="music-btn" class="music-btn" aria-label="Play music">
+        <span class="music-btn-icon">&#9835;</span>
+    </button>
+    <span class="music-label" id="music-label">
+        <span class="content-it">La colonna sonora<br><strong>I Wish</strong> &mdash; Stevie Wonder</span>
+        <span class="content-en" hidden>The soundtrack<br><strong>I Wish</strong> &mdash; Stevie Wonder</span>
+    </span>
+</div>
 
 <script src="js/main.js"></script>
 

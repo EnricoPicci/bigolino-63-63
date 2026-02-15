@@ -928,15 +928,22 @@ a:hover {
 }
 
 /* ===================== */
-/* Music Button          */
+/* Music Widget          */
 /* ===================== */
-.music-btn {
+.music-widget {
     position: fixed;
     bottom: 1.5rem;
     left: 1.5rem;
     z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.music-btn {
     width: 56px;
     height: 56px;
+    min-width: 56px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -964,6 +971,23 @@ a:hover {
     pointer-events: none;
 }
 
+.music-label {
+    background: var(--color-navy-dark);
+    color: var(--color-cream);
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-family: var(--font-family-sans);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+}
+
+.music-label strong {
+    color: var(--color-gold-prosecco);
+    font-size: 0.8rem;
+}
+
 @keyframes spin-vinyl {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
@@ -977,7 +1001,7 @@ a:hover {
     .spectrum-cursor,
     .lightbox,
     .back-nav,
-    .music-btn { display: none; }
+    .music-widget { display: none; }
 
     .hero { min-height: auto; padding: 2rem; }
     .hero-overlay { background: rgba(0,0,0,0.3); }
