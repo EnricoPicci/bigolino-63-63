@@ -21,4 +21,4 @@ Via Campion, 1
 
 ## Quando
 
-**Venerdì 27 Giugno 2026, dalle ore 19:00**
+**Sabato 27 Giugno 2026, dalle ore 19:00**
